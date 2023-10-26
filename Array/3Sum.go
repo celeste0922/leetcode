@@ -16,26 +16,29 @@ import "sort"
 
 func ThreeSum(nums []int) [][]int {
 	i := 0
-
+	n := len(nums)
 	index := 0
 	result := [][]int{}
 	sums := []int{}
 	sort.Ints(nums)
-	for ; i < len(nums)-2; i++ {
-		if nums[i]+nums[i+1]+nums[i+2] > 0 || nums[i]+nums[len(nums)-2]+nums[len(nums)-1] < 0 {
+	for ; i < n-2; i++ {
+		if nums[i]+nums[i+1]+nums[i+2] > 0 {
 			break
+		}
+		if nums[i]+nums[n-2]+nums[n-1] < 0 {
+			continue
 		}
 		if i > 0 && nums[i] == nums[i-1] {
 			continue
 		}
 		j := i + 1
-		k := len(nums) - 1
+		k := n - 1
 		for j < k {
 			if j-1 > i && nums[j] == nums[j-1] {
 				j++
 				continue
 			}
-			if k+1 < len(nums) && nums[k] == nums[k+1] {
+			if k+1 < n && nums[k] == nums[k+1] {
 				k--
 				continue
 			}
