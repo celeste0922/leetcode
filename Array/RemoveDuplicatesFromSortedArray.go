@@ -27,7 +27,7 @@ func RemoveDuplicates(nums []int) int {
 	if n == 0 {
 		return 0
 	}
-	for q < n { //1,1,2
+	for q < n {
 		if nums[p] == nums[q] {
 			q++
 		} else {

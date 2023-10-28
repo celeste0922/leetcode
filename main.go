@@ -20,4 +20,6 @@ func main() {
 	fmt.Println(Array.FourSum([]int{1, 0, -1, 0, -2, 2}, 0))
 	fmt.Print("删除有序数组中的重复项===>")
 	fmt.Println(Array.RemoveDuplicates([]int{1, 1, 2}))
+	fmt.Print("移除元素===>")
+	fmt.Println(Array.RemoveElement([]int{3, 2, 2, 3}, 3))
 }
