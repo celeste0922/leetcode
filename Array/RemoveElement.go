@@ -16,6 +16,7 @@ package Array
 //print(nums[i]);
 //}
 //=======================================================================================
+//简单~
 
 func RemoveElement(nums []int, val int) int {
 	n := len(nums)
