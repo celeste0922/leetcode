@@ -24,4 +24,6 @@ func main() {
 	fmt.Println(Array.RemoveElement([]int{3, 2, 2, 3}, 3))
 	fmt.Print("组合总和===>")
 	fmt.Println(Array.CombinationSum([]int{2, 3, 5}, 8))
+	fmt.Print("组合总和II===>")
+	fmt.Println(Array.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 }
