@@ -28,4 +28,6 @@ func main() {
 	//fmt.Println(Array.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
 	fmt.Print("组合总和II===>")
 	fmt.Println(Array.FirstMissingPositive([]int{1, 2, 0}))
+	fmt.Print("接雨水===>")
+	fmt.Println(Array.Trap([]int{4, 2, 0, 3, 2, 5}))
 }
