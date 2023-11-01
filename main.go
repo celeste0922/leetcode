@@ -30,4 +30,6 @@ func main() {
 	fmt.Println(Array.FirstMissingPositive([]int{1, 2, 0}))
 	fmt.Print("接雨水===>")
 	fmt.Println(Array.Trap([]int{4, 2, 0, 3, 2, 5}))
+	fmt.Print("旋转图像===>")
+	fmt.Println(Array.Rotate([][]int{{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}}))
 }
