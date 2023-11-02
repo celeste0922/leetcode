@@ -32,4 +32,6 @@ func main() {
 	fmt.Println(Array.Trap([]int{4, 2, 0, 3, 2, 5}))
 	fmt.Print("旋转图像===>")
 	fmt.Println(Array.Rotate([][]int{{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}}))
+	fmt.Print("最大子数组和===>")
+	fmt.Println(Array.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 }
