@@ -14,11 +14,11 @@ func SpiralOrder(matrix [][]int) []int {
 	left, right, top, bottom := 0, x-1, 0, y-1
 	columns, rows := left, top
 	for left <= right && top <= bottom {
-		for columns := left; columns <= right; columns++ {
+		for columns = left; columns <= right; columns++ {
 			result[index] = matrix[top][columns]
 			index++
 		}
-		for rows := top + 1; rows <= bottom; rows++ {
+		for rows = top + 1; rows <= bottom; rows++ {
 			result[index] = matrix[rows][right]
 			index++
 		}
