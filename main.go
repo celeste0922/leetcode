@@ -1,10 +1,5 @@
 package main
 
-import (
-	"fmt"
-	"leetcode/Array"
-)
-
 func main() {
 
 	//===================Array======================
@@ -26,14 +21,16 @@ func main() {
 	//fmt.Println(Array.CombinationSum([]int{2, 3, 5}, 8))
 	//fmt.Print("组合总和II===>")
 	//fmt.Println(Array.CombinationSum2([]int{10, 1, 2, 7, 6, 1, 5}, 8))
-	fmt.Print("组合总和II===>")
-	fmt.Println(Array.FirstMissingPositive([]int{1, 2, 0}))
-	fmt.Print("接雨水===>")
-	fmt.Println(Array.Trap([]int{4, 2, 0, 3, 2, 5}))
-	fmt.Print("旋转图像===>")
-	fmt.Println(Array.Rotate([][]int{{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}}))
-	fmt.Print("最大子数组和===>")
-	fmt.Println(Array.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
-	fmt.Print("螺旋矩阵===>")
-	fmt.Println(Array.SpiralOrder([][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}))
+	//fmt.Print("组合总和II===>")
+	//fmt.Println(Array.FirstMissingPositive([]int{1, 2, 0}))
+	//fmt.Print("接雨水===>")
+	//fmt.Println(Array.Trap([]int{4, 2, 0, 3, 2, 5}))
+	//fmt.Print("旋转图像===>")
+	//fmt.Println(Array.Rotate([][]int{{5, 1, 9, 11}, {2, 4, 8, 10}, {13, 3, 6, 7}, {15, 14, 12, 16}}))
+	//fmt.Print("最大子数组和===>")
+	//fmt.Println(Array.MaxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
+	//fmt.Print("螺旋矩阵===>")
+	//fmt.Println(Array.SpiralOrder([][]int{{1, 2, 3, 4}, {5, 6, 7, 8}, {9, 10, 11, 12}}))
+	//fmt.Print("合并区间===>")
+	//fmt.Println(Array.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
 }
