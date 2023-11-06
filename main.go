@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"leetcode/Array"
+)
+
 func main() {
 
 	//===================Array======================
@@ -35,4 +40,6 @@ func main() {
 	//fmt.Println(Array.Merge([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}}))
 	//fmt.Print("插入区间===>")
 	//fmt.Println(Array.Insert([][]int{{1, 3}, {2, 6}, {8, 10}, {15, 18}},[]int{1,2}))
+	fmt.Print("螺旋矩阵2===>")
+	fmt.Println(Array.GenerateMatrix(1))
 }
