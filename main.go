@@ -44,6 +44,8 @@ func main() {
 	//fmt.Println(Array.GenerateMatrix(1))
 	//fmt.Print("不同路径===>")
 	//fmt.Println(Array.UniquePaths(3, 2))
-	fmt.Print("不同路径II===>")
-	fmt.Println(Array.UniquePathsWithObstacles([][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}))
+	//fmt.Print("不同路径II===>")
+	//fmt.Println(Array.UniquePathsWithObstacles([][]int{{0, 0, 0}, {0, 1, 0}, {0, 0, 0}}))
+	fmt.Print("最小路径和===>")
+	fmt.Println(Array.MinPathSum([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}))
 }
