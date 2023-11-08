@@ -50,6 +50,8 @@ func main() {
 	//fmt.Println(Array.MinPathSum([][]int{{1, 3, 1}, {1, 5, 1}, {4, 2, 1}}))
 	//fmt.Print("颜色分类===>")
 	//Array.SortColors([]int{1, 0})
-	fmt.Print("子集===>")
-	fmt.Println(Array.Subsets([]int{1, 2, 3}))
+	//fmt.Print("子集===>")
+	//fmt.Println(Array.Subsets([]int{1, 2, 3}))
+	fmt.Print("单词搜索===>")
+	fmt.Println(Array.Exist([][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED"))
 }
