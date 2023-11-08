@@ -10,17 +10,19 @@ import "fmt"
 // ===============================================
 // 经典双指针
 //整体思路是将所有的0放到左边，所有的2放到右边，1不考虑
+//不考虑i和l的交错，从大局上考虑双指针和index的关系
+//官方内存也爆，不如我的思路简单捏
 
 func SortColors(nums []int) {
 	n := len(nums)
 	l := 0
 	r := n - 1
-	for i := 0; i < r; i++ {
-		for i < r && nums[i] == 2 { //一直排到当前位置不可能==2，因为index从左边开始读，所以不允许左边有漏网之鱼
+	for i := 0; i <= r; i++ {
+		for i <= r && nums[i] == 2 { //一直排到当前位置不可能==2，不允许index左边有漏网之鱼
 			nums[i], nums[r] = nums[r], nums[i]
 			r--
 		}
-		if nums[i] == 0 {
+		if nums[i] == 0 { //从左边开始筛选，所以交换过来后，不可能==0，不需要循环
 			nums[i], nums[l] = nums[l], nums[i]
 			l++
 		}
