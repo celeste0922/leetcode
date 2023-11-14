@@ -54,6 +54,8 @@ func main() {
 	//fmt.Println(Array.Subsets([]int{1, 2, 3}))
 	//fmt.Print("单词搜索===>")
 	//fmt.Println(Array.Exist([][]byte{{'A', 'B', 'C', 'E'}, {'S', 'F', 'C', 'S'}, {'A', 'D', 'E', 'E'}}, "ABCCED"))
-	fmt.Print("删除有序数组中的重复项 II===>")
-	fmt.Println(Array.RemoveDuplicatesII([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
+	//fmt.Print("删除有序数组中的重复项 II===>")
+	//fmt.Println(Array.RemoveDuplicatesII([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
+	fmt.Print("柱状图中最大的矩形===>")
+	fmt.Println(Array.LargestRectangleArea([]int{2, 4}))
 }
