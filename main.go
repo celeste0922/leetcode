@@ -58,6 +58,8 @@ func main() {
 	//fmt.Println(Array.RemoveDuplicatesII([]int{0, 0, 1, 1, 1, 1, 2, 3, 3}))
 	//fmt.Print("柱状图中最大的矩形===>")
 	//fmt.Println(Array.LargestRectangleArea([]int{2, 4}))
-	fmt.Print("柱状图中最大的矩形===>")
-	Array.Merge2([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
+	//fmt.Print("柱状图中最大的矩形===>")
+	//Array.Merge2([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
+	fmt.Print("子集II===>")
+	fmt.Println(Array.SubsetsWithDup([]int{1, 2, 2}))
 }
