@@ -62,6 +62,8 @@ func main() {
 	//Array.Merge2([]int{1, 2, 3, 0, 0, 0}, 3, []int{2, 5, 6}, 3)
 	//fmt.Print("子集II===>")
 	//fmt.Println(Array.SubsetsWithDup([]int{1, 2, 2}))
-	fmt.Print("三角形最小路径和===>")
-	fmt.Println(Array.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
+	//fmt.Print("三角形最小路径和===>")
+	//fmt.Println(Array.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
+	fmt.Print("买卖股票的最佳时机===>")
+	fmt.Println(Array.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
 }
