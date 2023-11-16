@@ -70,6 +70,8 @@ func main() {
 	//fmt.Println(Array.MaxProfit2([]int{1, 2, 3, 4, 5}))
 	//fmt.Print("乘积最大子数组===>")
 	//fmt.Println(Array.MaxProduct([]int{2, 3, -2, 4}))
-	fmt.Print("两数之和II===>")
-	fmt.Println(Array.TwoSum2([]int{2, 7, 7, 15}, 9))
+	//fmt.Print("两数之和II===>")
+	//fmt.Println(Array.TwoSum2([]int{2, 7, 7, 15}, 9))
+	fmt.Print("长度最小的子数组===>")
+	fmt.Println(Array.MinSubArrayLen(11, []int{12, 2, 3, 4, 5}))
 }
