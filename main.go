@@ -66,6 +66,8 @@ func main() {
 	//fmt.Println(Array.MinimumTotal([][]int{{2}, {3, 4}, {6, 5, 7}, {4, 1, 8, 3}}))
 	//fmt.Print("买卖股票的最佳时机===>")
 	//fmt.Println(Array.MaxProfit([]int{7, 1, 5, 3, 6, 4}))
-	fmt.Print("买卖股票的最佳时机II===>")
-	fmt.Println(Array.MaxProfit2([]int{1, 2, 3, 4, 5}))
+	//fmt.Print("买卖股票的最佳时机II===>")
+	//fmt.Println(Array.MaxProfit2([]int{1, 2, 3, 4, 5}))
+	fmt.Print("乘积最大子数组===>")
+	fmt.Println(Array.MaxProduct([]int{2, 3, -2, 4}))
 }
