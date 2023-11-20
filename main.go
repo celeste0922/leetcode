@@ -76,6 +76,8 @@ func main() {
 	//fmt.Println(Array.MinSubArrayLen(11, []int{12, 2, 3, 4, 5}))
 	//fmt.Print("组合总和III===>")
 	//fmt.Println(Array.CombinationSum3(3, 9))
-	fmt.Print("存在重复元素===>")
-	fmt.Println(Array.ContainsDuplicate([]int{1, 2, 3, 1}))
+	//fmt.Print("存在重复元素===>")
+	//fmt.Println(Array.ContainsDuplicate([]int{1, 2, 3, 1}))
+	fmt.Print("存在重复元素II===>")
+	fmt.Println(Array.ContainsNearbyDuplicate([]int{1, 0, 1, 1}, 1))
 }
