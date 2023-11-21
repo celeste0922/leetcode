@@ -84,6 +84,8 @@ func main() {
 	//Array.MoveZeroes([]int{0, 1, 0, 3, 12})
 	//fmt.Print("寻找重复数===>")
 	//fmt.Println(Array.FindDuplicate([]int{3, 1, 3, 4, 2}))
-	fmt.Print("数组中的k-diff数对===>")
-	fmt.Println(Array.FindPairs([]int{1, 3, 1, 5, 4}, 0))
+	//fmt.Print("数组中的k-diff数对===>")
+	//fmt.Println(Array.FindPairs([]int{1, 3, 1, 5, 4}, 0))
+	fmt.Print("重塑矩阵===>")
+	fmt.Println(Array.MatrixReshape([][]int{{1, 2, 3, 4}}, 2, 2))
 }
