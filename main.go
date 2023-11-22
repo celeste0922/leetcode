@@ -86,6 +86,8 @@ func main() {
 	//fmt.Println(Array.FindDuplicate([]int{3, 1, 3, 4, 2}))
 	//fmt.Print("数组中的k-diff数对===>")
 	//fmt.Println(Array.FindPairs([]int{1, 3, 1, 5, 4}, 0))
-	fmt.Print("重塑矩阵===>")
-	fmt.Println(Array.MatrixReshape([][]int{{1, 2, 3, 4}}, 2, 2))
+	//fmt.Print("重塑矩阵===>")
+	//fmt.Println(Array.MatrixReshape([][]int{{1, 2, 3, 4}}, 2, 2))
+	fmt.Print("单词接龙===>")
+	fmt.Println(Array.LadderLength("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}))
 }
