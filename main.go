@@ -88,6 +88,10 @@ func main() {
 	//fmt.Println(Array.FindPairs([]int{1, 3, 1, 5, 4}, 0))
 	//fmt.Print("重塑矩阵===>")
 	//fmt.Println(Array.MatrixReshape([][]int{{1, 2, 3, 4}}, 2, 2))
-	fmt.Print("单词接龙===>")
-	fmt.Println(Array.LadderLength("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}))
+	//fmt.Print("单词接龙===>")
+	//fmt.Println(Array.LadderLength("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}))
+	//fmt.Print("单词接龙II===>")
+	//fmt.Println(Array.FindLadders("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}))
+	fmt.Print("使用最小花费爬楼梯===>")
+	fmt.Println(Array.MinCostClimbingStairs([]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}))
 }
