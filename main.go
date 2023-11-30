@@ -94,6 +94,8 @@ func main() {
 	//fmt.Println(Array.FindLadders("hit", "cog", []string{"hot", "dot", "dog", "lot", "log", "cog"}))
 	//fmt.Print("使用最小花费爬楼梯===>")
 	//fmt.Println(Array.MinCostClimbingStairs([]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}))
-	fmt.Print("托普利茨矩阵===>")
-	fmt.Println(Array.IsToeplitzMatrix([][]int{}))
+	//fmt.Print("托普利茨矩阵===>")
+	//fmt.Println(Array.IsToeplitzMatrix([][]int{}))
+	fmt.Print("转置矩阵===>")
+	fmt.Println(Array.Transpose([][]int{}))
 }
