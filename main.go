@@ -96,6 +96,8 @@ func main() {
 	//fmt.Println(Array.MinCostClimbingStairs([]int{1, 100, 1, 1, 1, 100, 1, 1, 100, 1}))
 	//fmt.Print("托普利茨矩阵===>")
 	//fmt.Println(Array.IsToeplitzMatrix([][]int{}))
-	fmt.Print("转置矩阵===>")
-	fmt.Println(Array.Transpose([][]int{}))
+	//fmt.Print("转置矩阵===>")
+	//fmt.Println(Array.Transpose([][]int{}))
+	fmt.Print("三个数的最大乘积===>")
+	fmt.Println(Array.MaxProduct([]int{}))
 }
