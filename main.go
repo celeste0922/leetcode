@@ -98,6 +98,8 @@ func main() {
 	//fmt.Println(Array.IsToeplitzMatrix([][]int{}))
 	//fmt.Print("转置矩阵===>")
 	//fmt.Println(Array.Transpose([][]int{}))
-	fmt.Print("三个数的最大乘积===>")
-	fmt.Println(Array.MaxProduct([]int{}))
+	//fmt.Print("三个数的最大乘积===>")
+	//fmt.Println(Array.MaxProduct([]int{}))
+	fmt.Print("乘积小于 K 的子数组===>")
+	fmt.Println(Array.NumSubarrayProductLessThanK([]int{10, 5, 2, 6}, 100))
 }
