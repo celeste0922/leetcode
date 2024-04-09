@@ -100,6 +100,6 @@ func main() {
 	//fmt.Println(Array.Transpose([][]int{}))
 	//fmt.Print("三个数的最大乘积===>")
 	//fmt.Println(Array.MaxProduct([]int{}))
-	fmt.Print("乘积小于 K 的子数组===>")
-	fmt.Println(Array.NumSubarrayProductLessThanK([]int{10, 5, 2, 6}, 100))
+	fmt.Print("乘积小于 K 的连续子数组===>")
+	fmt.Println(Array.NumSubarrayProductLessThanK([]int{10, 2, 2, 3, 1}, 100))
 }
